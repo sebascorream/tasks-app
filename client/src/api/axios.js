@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: import.meta.env.VITE_API_URL,
+  baseURL: "https://tasks-app-0m6p.onrender.com/api",
   withCredentials: true,
 });
 
